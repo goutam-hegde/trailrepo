@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bundle-Description: "Core bundle for Trail Project"
+Bundle-SymbolicName: trailproject.core
+Bundle-Category: trail
+Bnd-LastModified: 1615816432981
+Bundle-ManifestVersion: 2
+Import-Package: com.adobe.aem.guides.trailproject.core.filters;version
+ ="[1.0,2)",com.adobe.aem.guides.trailproject.core.listeners;version="
+ [1.0,2)",com.adobe.aem.guides.trailproject.core.schedulers;version="[
+ 1.0,2)",com.adobe.aem.guides.trailproject.core.servlets;version="[1.0
+ ,2)",com.day.cq.wcm.api;version="[1.27,2)",javax.annotation;version="
+ [1.3,2)",javax.servlet;version="[3.1,4)",org.apache.sling.api;version
+ ="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.apache.
+ sling.api.resource;version="[2.11,3)",org.apache.sling.api.servlets;v
+ ersion="[2.2,3)",org.apache.sling.models.annotations;version="[1.5,2)
+ ",org.apache.sling.models.annotations.injectorspecific;version="[1.1,
+ 2)",org.apache.sling.settings;version="[1.3,2)",org.osgi.service.even
+ t;version="[1.3,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.guides.trailproject.core.fil
+ ters.LoggingFilter.xml,OSGI-INF/com.adobe.aem.guides.trailproject.cor
+ e.listeners.SimpleResourceListener.xml,OSGI-INF/com.adobe.aem.guides.
+ trailproject.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/com.ado
+ be.aem.guides.trailproject.core.servlets.SimpleServlet.xml
+Tool: Bnd-4.2.0.201903051501
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ,osgi.service;objectClass:List<String>="javax.servlet.Servlet",osgi.s
+ ervice;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Export-Package: com.adobe.aem.guides.trailproject.core.filters;version
+ ="1.0";uses:="javax.servlet",com.adobe.aem.guides.trailproject.core.l
+ isteners;version="1.0";uses:="org.osgi.service.event",com.adobe.aem.g
+ uides.trailproject.core.models;version="1.0";uses:="javax.annotation,
+ org.apache.sling.api.resource,org.apache.sling.models.annotations,org
+ .apache.sling.models.annotations.injectorspecific",com.adobe.aem.guid
+ es.trailproject.core.schedulers;version="1.0",com.adobe.aem.guides.tr
+ ailproject.core.servlets;version="1.0";uses:="javax.servlet,org.apach
+ e.sling.api,org.apache.sling.api.servlets"
+Bundle-Name: Trail Project - Core
+Bundle-Version: 0.0.1.20210315135352981
+Build-Jdk-Spec: 1.8
+Created-By: 1.8.0_151 (Oracle Corporation)
+Sling-Model-Packages: com.adobe.aem.guides.trailproject.core.models
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: Trail Project - UI apps
+Content-Package-Roots: /apps/TrailProject,/etc/packages/adobe/cq60/cor
+ e.wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.comp
+ onents.examples-2.5.0.zip
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1062409
+Implementation-Vendor-Id: com.mindtree
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apach
+ e.sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightl
+ y.pojo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Description: UI apps package for Trail Project
+Content-Package-Id: trail:trailproject.ui.apps:0.0.1-SNAPSHOT
+

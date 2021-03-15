@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Trail Project - UI content
+Content-Package-Roots: /conf/trailproject,/content/dam/trailproject,/c
+ ontent/trailproject
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1062409
+Implementation-Vendor-Id: com.mindtree
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Description: UI content package for Trail Project
+Content-Package-Id: trail:trailproject.ui.content:0.0.1-SNAPSHOT
+

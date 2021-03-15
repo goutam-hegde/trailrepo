@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Trail Project - UI apps</comment>
+<entry key="createdBy">M1062409</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">trailproject.ui.apps</entry>
+<entry key="created">2021-03-15T19:23:46.134+05:30</entry>
+<entry key="groupId">com.mindtree</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">trail</entry>
+<entry key="description">UI apps package for Trail Project</entry>
+<entry key="artifactId">trailproject.ui.apps</entry>
+</properties>
